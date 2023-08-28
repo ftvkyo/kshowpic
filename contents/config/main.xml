@@ -6,5 +6,12 @@
         <entry name="picPath" type="Path">
             <default></default>
         </entry>
+
+        <entry name="width" type="int">
+            <default>640</default>
+        </entry>
+        <entry name="height" type="int">
+            <default>480</default>
+        </entry>
     </group>
 </kcfg>

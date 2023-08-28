@@ -5,12 +5,28 @@ This is useful when you want to have a quick reference for something that you co
 
 ## Installation
 
-```
+```sh
 kpackagetool5 -i .
+```
+
+## Development
+
+```sh
+# Use this to reinstall the plasmoid and run it in a window
+kpackagetool5 -r . && kpackagetool5 -i . && plasmawindowed me.ftvkyo.kshowpic
+
+# Note: plasmoidviewer does not let right-click to open settings.
+# Note: `kpackagetool5 -u .` may override local files.
 ```
 
 ## Usage
 
 1. Add the plasmoid to your panel.
-2. Right click on it, select the configure option.
-3. Select the picture you want to display and save the configuration.
+2. Configure the plasmoid.
+3. Click on it, or use a keyboard shortcut configured to open and close it.
+
+## Configuration
+
+- Path to the picture to display.
+- Width and height of the window (with respect to DPI).
+- Keyboard shortcut to open and close the plasmoid (built-in).
