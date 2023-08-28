@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Id": "me.ftvkyo.kshowpic",
+        "Version": "0.1",
+
+        "Icon": "image-generic",
+        "Name": "kshowpic",
+        "Description": "Display a picture of your choice, useful for making a quick reference.",
+
+        "License": "GPLv3",
+
+        "Authors": [
+            {
+                "Email": "ftvkyo@gmail.com",
+                "Name": "Andrei Stepanenko"
+            }
+        ],
+        "Website": "https://github.com/ftvkyo/kshowpic"
+    },
+
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "KPackageStructure": "Plasma/Applet"
+}
